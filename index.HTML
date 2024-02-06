@@ -1,12 +1,43 @@
 <!DOCTYPE html>
 <html>
 <body>
-
+ 
+<div class="javascript-1">  
 <h2>What Can JavaScript Do?</h2>
 
-<p id="demo">Atiya is a very bad girl (' ~ ').</p>
+<p>JavaScript can change HTML attribute values.</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src='Images/atiya.jpg'">Turn on the light</button>
+
+<img id="myImage" src="Images/atiya.jpg" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='Images/sakila.jpg'">Turn off the light</button>
+
+</div>
+
+<div class="JavaScript-2">
+<h2>What Can JavaScript Do?</h2>
+
+<p id="demo">Atiya is my best friend.</p>
 
 <button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">Click Me!</button>
+
+</div> 
+
+<div class="JavaScript-3">
+    
+<h2>What Can JavaScript Do?</h2>
+
+<p>I'm Saimoma.</p>
+
+<p id="demo1" style="display:none">Atiya is a bad girl!</p>
+
+<button type="button" onclick="document.getElementById('demo1').style.display='block'">Click Me!</button>
+
+
+</div>
 
 </body>
 </html>
